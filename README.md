@@ -25,7 +25,8 @@
 WZBGradualTableView *tableView = [WZBGradualTableView gradualTableViewWithFrame:self.view.bounds direction:(WZBTableViewGradualDirectionTop | WZBTableViewGradualDirectionBottom)  gradualValue:@[@(.3), @0.3]];
 ```
 则显示效果为：
- ![image](https://github.com/WZBbiao/WZBGradualTableView/blob/master/3.gif?raw=true)
+
+ ![image](https://github.com/WZBbiao/WZBGradualTableView/blob/master/4.gif?raw=true)
  
  如果这样写
  
@@ -34,9 +35,9 @@ WZBGradualTableView *tableView = [WZBGradualTableView gradualTableViewWithFrame:
  ```
  效果如下：
  
-  ![image](https://github.com/WZBbiao/WZBGradualTableView/blob/master/4.gif?raw=true)
+  ![image](https://github.com/WZBbiao/WZBGradualTableView/blob/master/3.gif?raw=true)
   
-  好了，您学会了吗？
+ 怎么样，您学会怎么用了吗？
 
  您还可以加入我们的群，大家庭期待您的加入！
  
