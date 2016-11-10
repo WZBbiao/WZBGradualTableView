@@ -13,7 +13,7 @@
 /*
  * frame：tableView的frame
  * direction：透明渐进的方向
- * gradualValue：透明返回值，如果只有一个方向，此值传一个NSNumber、NSString即可，值的范围0—1。如果是两个方向，则需要传一个数组，数组里边传两个NSNumber或者NSString
+ * gradualValue：透明范围值，如果只有一个方向，此值传一个NSNumber、NSString即可，值的范围0—1。如果是两个方向，则需要传一个数组，数组里边传两个NSNumber或者NSString
  ***/
 + (instancetype)gradualTableViewWithFrame:(CGRect)frame direction:(WZBTableViewGradualDirection)direction gradualValue:(id)gradualValue;
 ```
