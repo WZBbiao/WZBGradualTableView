@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yYc-JK-a0h">
+                                <rect key="frame" x="152" y="283.5" width="70" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAb-jd-Nce">
+                                        <rect key="frame" x="0.0" y="44" width="70" height="56"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="56" id="6RB-TA-GJp"/>
+                                            <constraint firstAttribute="width" constant="70" id="uFu-Wn-Lw3"/>
+                                        </constraints>
+                                        <state key="normal" title="demo2"/>
+                                        <connections>
+                                            <action selector="jumpLiveVideoController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dpP-cf-D0l"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lg0-7J-y8E">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="uNt-rF-fEu"/>
+                                        </constraints>
+                                        <state key="normal" title="demo1"/>
+                                        <connections>
+                                            <action selector="jumpSongWordController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="swK-Bm-WSZ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="lg0-7J-y8E" firstAttribute="top" secondItem="yYc-JK-a0h" secondAttribute="top" id="0nr-Pg-rBR"/>
+                                    <constraint firstAttribute="width" constant="70" id="49s-pO-Sql"/>
+                                    <constraint firstAttribute="height" constant="100" id="DdE-pK-UZ8"/>
+                                    <constraint firstItem="wAb-jd-Nce" firstAttribute="leading" secondItem="yYc-JK-a0h" secondAttribute="leading" id="O63-t4-Jkv"/>
+                                    <constraint firstAttribute="bottom" secondItem="wAb-jd-Nce" secondAttribute="bottom" id="Sz0-Ye-j0i"/>
+                                    <constraint firstItem="wAb-jd-Nce" firstAttribute="top" secondItem="lg0-7J-y8E" secondAttribute="bottom" id="T8A-03-Pou"/>
+                                    <constraint firstAttribute="trailing" secondItem="wAb-jd-Nce" secondAttribute="trailing" id="c3L-k4-A2j"/>
+                                    <constraint firstAttribute="trailing" secondItem="lg0-7J-y8E" secondAttribute="trailing" id="dlh-3V-K0x"/>
+                                    <constraint firstItem="lg0-7J-y8E" firstAttribute="leading" secondItem="yYc-JK-a0h" secondAttribute="leading" id="qbv-k7-2gr"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yYc-JK-a0h" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Z05-Jc-b20"/>
+                            <constraint firstItem="yYc-JK-a0h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hfA-Ni-v46"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="90.404797601199405"/>
+        </scene>
+    </scenes>
+</document>
